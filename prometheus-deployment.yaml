@@ -36,4 +36,4 @@ spec:
   
         - name: prometheus-storage-volume
           persistentVolumeClaim:
-            claimName: mydata
+            claimName: prometheus-data
