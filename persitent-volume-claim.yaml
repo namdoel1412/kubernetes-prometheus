@@ -7,6 +7,7 @@ spec:
   storageClassName: csi-rbd-sc
   accessModes:
     - ReadWriteMany
+  volumeMode: Filesystem
   resources:
     requests:
       storage: 1Gi
